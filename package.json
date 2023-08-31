@@ -1,0 +1,13 @@
+{
+  "name": "react2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./backend/server.js",
+    "client": "cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}

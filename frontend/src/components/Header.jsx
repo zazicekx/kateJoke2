@@ -1,7 +1,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FaSignInAlt } from 'react-icons/fa';
 import { LinkContainer } from "react-router-bootstrap";
-import { EmojiLaughing, CloudCheckFill, YinYang, Send,  SearchHeart } from 'react-bootstrap-icons';
+import { EmojiLaughing, CloudCheckFill, YinYang, Send,  SearchHeart,BodyText } from 'react-bootstrap-icons';
 
 
 const Header = () => {
@@ -43,6 +43,12 @@ const Header = () => {
                             <LinkContainer to="/Search">
                                 <Nav.Link>
                                     <SearchHeart /> Search
+                                </Nav.Link>
+                            </LinkContainer>
+
+                            <LinkContainer to="/ToDo">
+                                <Nav.Link>
+                                    <BodyText /> ToDo
                                 </Nav.Link>
                             </LinkContainer>
 

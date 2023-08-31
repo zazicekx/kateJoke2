@@ -12,6 +12,8 @@ import Weather from "./pages/Weather.jsx";
 import NotImplemented from "./pages/NotImplemented.jsx"
 import MoreJokes from "./pages/MoreJokes.jsx"
 import SearchName from './pages/SearchName.jsx';
+import ToDo from './pages/ToDo.Jsx';
+import ToDoForm from './components/ToDoForm.jsx';
 
 
 const router = createBrowserRouter(
@@ -24,6 +26,8 @@ const router = createBrowserRouter(
             <Route path="/Weather" element={<Weather />} />
             <Route path="/Search" element={<SearchName />} />
             <Route path="/About" element={<NotImplemented />} />
+            <Route path="/ToDo" element={<ToDo />} />
+            <Route path="/ToDo/Form" element={<ToDoForm />} />
         </Route>
     )
 )
