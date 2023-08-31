@@ -9,7 +9,7 @@ const Hero = () => {
                     <h1 className='text-center mb-4'>Kate Bobby Joke</h1>
                     <p className='text-center mb-4'>
                         This website is dedicated to kate Bobby, so she can check out the weather,
-                        or she can get some jokes, while she is 
+                        or she can get some jokes, while she is having a boring moments.
                     </p>
                     <div className='d-flex'>
                         <LinkContainer to="/Weather">
@@ -17,7 +17,7 @@ const Hero = () => {
                                 Get Weather
                             </Button>
                         </LinkContainer>
-                        <LinkContainer to="/">
+                        <LinkContainer to="/MoreJokes">
                             <Button variant='secondary' className='me-3'>
                                 Get daddy joke
                             </Button>
